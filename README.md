@@ -15,8 +15,6 @@ Also, I will be adding a feature to a later version of this bot that does some o
 
 * 3: Open Command Prompt or Powershell, and type "pip". If it works, type "pip install nextcord==2.0.0a10" and wait until it completes. Next, type "pip install psutil==5.9.0" and wait until it completes.
 
-*
-
 * 4: Press the green "Code" button at the top of this page and press "Download ZIP". Extract the .ZIP file.
 
 * 5: Create a new Discord server, with you being the only member. If you let other members in this server, they will be able to control your PC too!

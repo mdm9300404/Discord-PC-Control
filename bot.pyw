@@ -1,13 +1,19 @@
+import pickle
+import os
+
+picklefile = open(os.path.expanduser(r"~\Documents\PC Control Bot\PC Control Bot.pickle"), "rb")
+pickledictionary = pickle.load(picklefile)
+
 from nextcord import Interaction
 import nextcord
 from nextcord.ext import commands
-import os
 import psutil
 
 intents = nextcord.Intents.all()
 bot = commands.Bot(command_prefix='$', intents=intents)
 
-guildid = 99999999999999999 # Replace this with the server ID you put the bot in
+guildid = pickledictionary['guildid'] # Replace this with the server ID you put the bot in, or use the one in the pickle file
+bottoken = pickledictionary['bottoken'] # Replace this with your bot token or use the one that you provided when using the installer. You can get one here: https://discord.com/developers/applications/
 
 @bot.event
 async def on_ready():
@@ -71,4 +77,4 @@ async def usage(interaction: Interaction):
 async def status(interaction: Interaction):
     await interaction.response.send_message("I'm online and signed in!")
     
-bot.run("Put in your bot token here") # Replace this with your bot token. You can get one here: https://discord.com/developers/applications/
+bot.run(bottoken)

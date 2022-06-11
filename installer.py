@@ -59,7 +59,7 @@ try:
     # Yes to ok
     if answer1 == "y" or answer1 == "yes":
         print("\nInstalling pickle file...")
-        dict1 = {'guildid': guildid, 'bottoken': bottoken} #C reate a dictionary to store the data
+        dict1 = {'guildid': guildid, 'bottoken': bottoken} # Create a dictionary to store the data
         os.mkdir(os.path.expanduser(r"~\Documents\PC Control Bot")) # Create a folder called "PC Control Bot" in the user's Documents folder
         picklefile = open(os.path.expanduser(r"~\Documents\PC Control Bot\PC Control Bot.pickle"), "wb")
         pickle.dump(dict1, picklefile) # Write dictionary to newly created pickle file

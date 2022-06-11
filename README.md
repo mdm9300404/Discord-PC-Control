@@ -22,4 +22,4 @@ Also, I will be adding a feature to a later version of this bot that does some o
 
 
 
-### If the installer.py file gives any errors, please report it to me and/or see the [Manual Installation Guide](https://github.com/mdm9300404/Discord-PC-Control/blob/main/Manual_Install_Instructions.md))
+### If the installer.py file gives any errors, please report it to me and/or see the [Manual Installation Guide](https://github.com/mdm9300404/Discord-PC-Control/blob/main/Manual_Install_Instructions.md)

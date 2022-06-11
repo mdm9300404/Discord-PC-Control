@@ -15,7 +15,7 @@ Also, I will be adding a feature to a later version of this bot that does some o
 
 * 3: Click the green "Code" button at the top of this page, then press "Download ZIP". Extract the ZIP file to a new folder.
 
-* 4: Open the extracted folder, and run the installer.py file. The installer I wrote will walk you through the installation from there. ***Please note, this installer downloads dependencies using PIP, and it does not install them in a virtual environment. For more control over the installation, see the [Manual Installation Guide](https://github.com/mdm9300404/Discord-PC-Control/blob/main/Manual_Install_Instructions.md))
+* 4: Open the extracted folder, and run the installer.py file. The installer I wrote will walk you through the installation from there. ***Please note, this installer downloads dependencies using PIP, and it does not install them in a virtual environment. For more control over the installation, see the [Manual Installation Guide](https://github.com/mdm9300404/Discord-PC-Control/blob/main/Manual_Install_Instructions.md))***
 
 
 

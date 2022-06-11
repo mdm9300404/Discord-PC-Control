@@ -2,7 +2,7 @@
 
 ### Control your PC remotely with a Discord bot and Python!
 
-Please note, this only works on Windows PCs. This program will break if you try to run it on MacOS or any Linux distibution
+Please note, this only works on Windows PCs. This program will break if you try to run it on MacOS or any Linux distribution
 
 # Commands you can run:
 * /shutdown | Shutdown your PC

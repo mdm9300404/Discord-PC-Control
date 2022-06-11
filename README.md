@@ -2,11 +2,6 @@
 
 ### Control your PC remotely with a Discord bot and Python!
 
-
-The installation instructions look like a lot to read/do, but that's because I explain things in extreme detail. In reality, most people won't need this amount of detail and ***you'll be able to get your bot up-and-runnning in just 5 minutes or less!***
-
-Also, I will be adding a feature to a later version of this bot that does some of this setup automatically.
-
 # Automatic Installation Instructions:
 
 * 1: Download and install Python 3.10.5 from here: https://www.python.org/downloads/release/python-3105/ (Download the "Windows installer (64-bit)")

@@ -2,6 +2,15 @@
 
 ### Control your PC remotely with a Discord bot and Python!
 
+#Commands you can run:
+* /shutdown | Shutdown your PC
+* /restart | Restarts your PC
+* /lock | Locks your PC (Puts you back on the lockscree, requiring a password, but doesn't sign-out the user)
+* /signout | Signout of the current user and require them to sign back in
+* /sleep | Puts your PC to sleep (Turns off monitors, saves current state, and puts the PC in a low power mode)
+* /usage | See information about your PC such as: CPU Usage, RAM Usage (Percentage) and RAM Usage (GB)
+* /status | See if your PC is still turned on and the bot is still running
+
 # Automatic Installation Instructions:
 
 * 1: Download and install Python 3.10.5 from here: https://www.python.org/downloads/release/python-3105/ (Download the "Windows installer (64-bit)")

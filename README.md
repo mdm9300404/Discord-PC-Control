@@ -2,7 +2,7 @@
 
 ### Control your PC remotely with a Discord bot and Python!
 
-#Commands you can run:
+# Commands you can run:
 * /shutdown | Shutdown your PC
 * /restart | Restarts your PC
 * /lock | Locks your PC (Puts you back on the lockscree, requiring a password, but doesn't sign-out the user)

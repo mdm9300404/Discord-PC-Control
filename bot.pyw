@@ -9,8 +9,7 @@ import nextcord
 from nextcord.ext import commands
 import psutil
 
-intents = nextcord.Intents.all()
-bot = commands.Bot(command_prefix='$', intents=intents)
+bot = commands.Bot()
 
 guildid = pickledictionary['guildid'] # Replace this with the server ID you put the bot in, or use the one in the pickle file
 bottoken = pickledictionary['bottoken'] # Replace this with your bot token or use the one that you provided when using the installer. You can get one here: https://discord.com/developers/applications/
